@@ -5,9 +5,9 @@ const promosiSound = new Audio("sounds/promosi.mp3");
 const board = document.getElementById('game-board');
 
 const cards = [
-  'roti.jpg', 'roti.jpg', 'roti.jpg', 'roti.jpg',
-  'kucing.jpg', 'kucing.jpg', 'kucing.jpg', 'kucing.jpg',
-  'kampus.jpg', 'kampus.jpg', 'kampus.jpg', 'kampus.jpg'
+  'roti.jpg', 'roti.jpg', 'roti.jpg',
+  'kucing.jpg', 'kucing.jpg', 'kucing.jpg',
+  'kampus.jpg', 'kampus.jpg', 'kampus.jpg',
 ];
 
 let flippedCards = [];
@@ -68,7 +68,7 @@ function showPromo() {
 
   setTimeout(() => {
     promo.remove();
-  }, 4000);
+  }, 6000);
 }
 
 function shuffle(array) {
